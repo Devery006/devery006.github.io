@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    background-image: linear-gradient(rgba(28, 177, 28, 0.925), rgb(13, 82, 13) );
+    display: flex;
+    vertical-align:middle;
+    height: 800px;
+    overflow-y: hidden;
+}
+
+#arguments {
+    border: 10px;
+    border-style:groove;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(223, 223, 223);
+}
+
+#arguments h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+    color: rgb(18, 144, 255);
+}
+
+#arguments h2 {
+    margin: 0px 15px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgb(69, 164, 247);
+}
+
+#list {
+    display: flex;
+}
+
+#lista2 {
+    width: 80%;
+}
+
+#lista2 li {
+    margin: 20px;
+}
+
+#lista2 li img {
+    width: 45%;
+}
+
+#lista2 li p {
+    font-size: 18px;
+}
+
+ul {
+    width: 45%;
+}
+
+li {
+    display: flex;
+    width: 100%;
+    margin: 20px;
+    height: 120px;
+}
+
+li img {
+    width: 50%;
+}
+
+li p {
+    font-size: 20px;
+    width: 50%;
+
+}
+
